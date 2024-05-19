@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 3</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-div">
+          <div class="logo-div">
+            <img src="./assets/bankLogo.png" />
+          </div>
+          <div class="menu">
+            <ul class="menu-ul">
+              <li>БАНК</li>
+              <li>БИЗНЕС</li>
+              <li>ИНВЕСТИЦИИ</li>
+              <li>СТРАХОВАНИЕ</li>
+              <li>МОБАЙЛ</li>
+              <li>ПУТЕШЕСТВИЯ</li>
+              <li>РАЗВЛЕЧЕНИЯ</li>
+              <li class="exit-li">ВОЙТИ</li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="converter-all-part">
+        <div class="name-converter-div">
+          <h1>Конвертер валют онлайн</h1>
+        </div>
+        <div class="converter-div">
+          <div class="left-part">
+            <p class="left-head-p">У меня есть</p>
+            <div class="left-select-exchange-div">
+              <div class="rub-first">RUB</div>
+              <div class="usd-first">USD</div>
+              <div class="eur-first">EUR</div>
+              <div class="gbp-first">GBP</div>
+            </div>
+
+            <div class="left-general-input-div">
+              <div class="left-input-div">
+                <input
+                  type="text"
+                  class="left-input"
+                  placeholder="Enter value"
+                />
+              </div>
+              <p class="left-foot-p">1 RUB = 0.0135 USD</p>
+            </div>
+          </div>
+          <div class="right-part">
+            <p class="right-head-p">Хочу приобрести</p>
+            <div class="right-select-exchange-div">
+              <div class="rub-second">RUB</div>
+              <div class="usd-second">USD</div>
+              <div class="eur-second">EUR</div>
+              <div class="gbp-second">GBP</div>
+            </div>
+            <div class="right-general-input-div">
+              <div class="right-input-div">
+                <input
+                  type="text"
+                  class="right-input"
+                  placeholder="Enter value"
+                />
+              </div>
+              <p class="right-foot-p">1 USD = 73.8896 RUB</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
